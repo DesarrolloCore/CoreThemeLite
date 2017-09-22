@@ -1,0 +1,18 @@
+.wrap>h2{
+	text-align: center;
+}
+body.wp-admin {
+    background-color: #f1f1f1;
+}
+label>span{
+	background-color: darkgray;
+    border-radius: 100%;
+    padding: 1px 5px;	
+	cursor:help;
+}
+.help{
+	background-color: darkgray;
+    border-radius: 100%;
+    padding: 1px 8px;	
+	cursor:help;
+}

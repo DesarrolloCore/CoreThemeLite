@@ -1,0 +1,166 @@
+/*
+Theme Name: Core Lite
+Description: Tema privado.
+Author: Core
+Version: 1.0
+*/
+@import url('stylee.css');
+@import url('stylea.css');
+h1{
+	font-size:20px;
+}
+
+.imgs{
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.attachment-large{
+	width:100% !important;
+	height: auto !important;
+}
+ul.breadcrumbs {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size:12px;
+}
+ul.breadcrumbs li {
+    float: left;
+    margin: 0 5px 0 0;
+    padding: 0;
+}
+.btn-default{
+	border: 1px solid #B3B3B3;
+	color: #444;
+	padding: 8px 10px;
+	font-size: 13px;
+	transition: all 0.4s ease 0s;
+background-image:none;
+	border-radius:0;
+}
+.btn-default:hover, .btn-default a:hover{
+	background-color:white;
+	background-image:none;
+}
+.pagenavi {
+    margin: 0 0 20px 30px;
+    padding: 5px 1px 5px;
+    float:left;
+    width: 98%;
+}
+.pagenavi a {
+    padding: 5px 6px 4px 6px;
+    margin: 3px;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    color: #666;
+    background-color: inherit;
+}
+.pagenavi a:hover {
+    border: 1px solid #444;
+    color: #444;
+    background-color: #eee;
+}
+.pagenavi span.pages {
+    padding: 5px 6px 4px 6px;
+    margin: 3px;
+    color: #825a2d;
+    font-weight:bold;
+    border: 1px solid #999;
+    background-color: inherit;
+}
+.pagenavi span.current {
+    padding: 5px 6px 4px 6px;
+    margin: 3px;
+    font-weight:bold;
+    border: 1px solid #666;
+    color: #444;
+    background-color: #eee;
+}
+.pagenavi span.expand {
+    padding: 5px 6px 4px 6px;
+    margin: 3px;
+    border: 1px solid #ccc;
+    color: #444;
+    background-color: inherit;
+}
+.pagenavi .first, .pagenavi .last {
+    border: 1px solid #aaa;
+}
+.pagenavi .single_page {
+	border: 1px dashed #ccc;
+}
+ul.social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.alignright{
+	float:right;
+	margin:10px; 
+}
+.alignleft{
+	float:left;
+	margin:10px; 
+}
+.post_author{
+	border-top:1px gray solid;
+	padding: 10px 5px;
+}
+.avatar.photo{
+	border-radius:50%;
+}
+.post_info{
+	padding:0 15px;
+}
+.post_title a{
+	font-size: 16px;
+	color: black;		
+	transition: all ease-in-out 0.5s;
+}
+.post_title a:hover{
+	font-size: 18px;
+	font-weight: border;
+}
+/******************/
+a:active, a:active * {
+	outline: none !important;
+	-moz-outline-style: none !important;
+	-webkit-outline-style: none !important;
+	text-decoration:none;
+}
+a:focus, a:focus * {
+	outline: none !important;
+	-moz-outline-style: none !important;
+	-webkit-outline-style: none !important;
+	text-decoration:none;
+}
+a:hover, a:hover * {
+	outline: none !important;
+	-moz-outline-style: none !important;
+	-webkit-outline-style: none !important;
+	text-decoration:none;
+}
+#sidebar h3+div,#sidebar h3+ul {
+	border: 1px solid gray;
+	height: auto;
+	width: 100%;
+	display: block;
+	background-color: white;
+	border-radius: 0 0 3px 3px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+#sidebar h3 {
+	background-color: black;
+	border-radius: 3px 3px 0 0;
+	padding: 4px;
+	text-align: center;
+	color: white;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+/***************************/
